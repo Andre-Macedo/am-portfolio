@@ -45,16 +45,15 @@ const AboutRightComponent = () => {
                             </span>
                             <span style={{ marginLeft: "5px" }}>MY INTERESTS</span>
                             <SkillComponent
-                                skillName="React"
+                                skillName="Javascript"
                                 visible={true}
                                 color="rgb(235,203,139)"
                                 subSkill={[
-                                    "reusable components.md",
-                                    "routing.md",
-                                    "fetching api.md",
-                                    "context api.md",
-                                    "redux.md",
-                                    "next js.md"
+                                    "nodeJs.md",
+                                    "express.md",
+                                    "mongoDB.md",
+                                    "typescript.md",
+                                    "three js.md"
                                 ]}
                             />
                             <SkillComponent
@@ -64,6 +63,19 @@ const AboutRightComponent = () => {
                                 subSkill={[
                                     "responsive websties.md",
                                     "grid flexbox.md",
+                                    "scss.md",
+                                ]}
+                            />
+                            <SkillComponent
+                                skillName="React"
+                                visible={false}
+                                color="#1273de"
+                                subSkill={[
+                                    "reusable components.md",
+                                    "routing.md",
+                                    "fetching api.md",
+                                    "redux.md",
+                                    "next js.md",
                                 ]}
                             />
                             <SkillComponent
@@ -72,9 +84,9 @@ const AboutRightComponent = () => {
                                 color="rgb(191,97,106)"
                                 subSkill={[
                                     "material ui.md",
-                                    "bootstrap.md",
+                                    "chackra ui.md",
                                     "framer motion.md",
-                                    "three js.md"
+                                    "bootstrap.md"
                                 ]}
                             />
                             <SkillComponent

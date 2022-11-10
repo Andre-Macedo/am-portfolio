@@ -75,6 +75,7 @@
     height: calc(100vh - 110px);
     padding: 1rem;
     width: 400px;
+    overflow: auto;
 }
 
 .about .right_container h3 {

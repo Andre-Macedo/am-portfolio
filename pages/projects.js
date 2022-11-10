@@ -119,8 +119,6 @@ export async function getStaticProps() {
     });
 
     const { user } = data;
-    console.log(data);
-    console.log(data.name)
     const pinnedItems = user.pinnedItems.edges.map((edge) => edge.node);
 
     return {

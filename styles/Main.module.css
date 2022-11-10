@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 50px;
+}
+
+.container {
+    height: calc(100vh - 110px);
+    color: whitesmoke;
+}
+
+
+@media screen and (max-width: 570px) {
+    .main {
+        min-height: none;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,28 @@
+.nav {
+    color: lightgray;
+    background-color: rgb(1, 4, 9);
+    font-size: 20px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgb(1, 4, 9);
+    padding: 0;
+    margin: 0px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+
+.nav ul li {
+    border: 1px solid gray;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.nav :active {}

@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const NavbarItem = props => {
 
-    const { itemName, itemPath } = props;
+    const { className, itemName, itemPath } = props;
 
     return (
         <Link href={itemPath} passHref>
-            <li>{itemName}</li>
+            <li className={className} >{itemName}</li>
         </Link>
     )
 }

@@ -12,7 +12,7 @@ const Project = ({ pinnedItems }) => {
     return (
         <div className={style.project}>
             <div className={style.project_container}>
-                <p>//Top project</p>
+                <p className={style.project_heading}>//Top project</p>
                 <div className={style.project_card_container}>
                     {pinnedItems.map((item) => {
                         return (

@@ -10,9 +10,9 @@ const Navbar = () => {
         <header>
             <nav className={style.nav} >
                 <ul >
-                    <NavbarItem itemName="_home" itemPath="/" />
-                    <NavbarItem itemName="_about" itemPath="/about" />
-                    <NavbarItem itemName="_projects" itemPath="/projects" />
+                    <NavbarItem className={router.pathname == "/" ? `${style.active}` : ""} itemName="_home" itemPath="/" />
+                    <NavbarItem className={router.pathname == "/about" ? `${style.active}` : ""} itemName="_about" itemPath="/about" />
+                    <NavbarItem className={router.pathname == "/projects" ? `${style.active}` : ""} itemName="_projects" itemPath="/projects" />
                 </ul>
             </nav>
         </header>

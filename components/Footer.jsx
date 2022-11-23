@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer className={style.footer}>
             <div>
-                <p>Contact Me:</p>
+                <p className={style.contact_label}>Contact Me:</p>
                 <ContactItem contactIcon={BsLinkedin} contactLink="" />
                 <ContactItem contactIcon={BsGithub} contactLink="" />
                 <ContactItem contactIcon={BsTwitter} contactLink="" />

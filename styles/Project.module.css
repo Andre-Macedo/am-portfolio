@@ -8,6 +8,11 @@
 .project_container {
     margin: auto;
     width: 70%;
+
+}
+
+.project_heading {
+    margin-top: 10px;
 }
 
 .project_card_container {
@@ -15,6 +20,8 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-top: 1rem;
     gap: 1rem;
+
+
 }
 
 .project_card {

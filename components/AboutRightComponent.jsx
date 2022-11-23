@@ -76,6 +76,7 @@ const AboutRightComponent = () => {
                                     "fetching api.md",
                                     "redux.md",
                                     "next js.md",
+                                    "react native.md"
                                 ]}
                             />
                             <SkillComponent

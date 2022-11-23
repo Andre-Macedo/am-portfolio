@@ -25,4 +25,16 @@
     cursor: pointer;
 }
 
-.nav :active {}
+.active {
+    border-top: 2px solid rgb(191, 97, 106) !important;
+    background-color: rgb(13, 17, 23);
+    border-bottom: none;
+}
+
+
+@media screen and (max-width: 400px) {
+    .nav ul li {
+        width: 100%;
+        font-size: 14px;
+    }
+}

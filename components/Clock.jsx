@@ -1,3 +1,5 @@
+import style from "../styles/Footer.module.css";
+
 const Clock = () => {
 
     const currentDate = new Date();
@@ -5,7 +7,7 @@ const Clock = () => {
     const time = `${currentDate.getHours()}:${currentDate.getMinutes()}`;
 
     return (
-        <div>
+        <div className={style.clock}>
             <p>{date} | {time}</p>
         </div>
     );

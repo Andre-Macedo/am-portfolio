@@ -10,9 +10,9 @@ const Footer = () => {
             <div>
                 <p className={style.contact_label}>Contact Me:</p>
                 <ContactItem contactIcon={BsLinkedin} contactLink="" />
-                <ContactItem contactIcon={BsGithub} contactLink="" />
+                <ContactItem contactIcon={BsGithub} contactLink="https://github.com/Andre-Macedo" />
                 <ContactItem contactIcon={BsTwitter} contactLink="" />
-                <ContactItem contactIcon={BsEnvelope} contactLink="" />
+                <ContactItem contactIcon={BsEnvelope} contactLink="mailto:andrluis@proton.me" />
             </div>
             <Clock />
         </footer>

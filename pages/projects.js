@@ -12,7 +12,7 @@ const Project = ({ pinnedItems }) => {
     return (
         <div className={style.project}>
             <div className={style.project_container}>
-                <p className={style.project_heading}>//Top project</p>
+                <p className={style.project_heading}>//Top projects. Live demos linked in gitub page.</p>
                 <div className={style.project_card_container}>
                     {pinnedItems.map((item) => {
                         return (
